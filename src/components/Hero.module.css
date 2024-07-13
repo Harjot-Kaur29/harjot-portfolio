@@ -73,7 +73,7 @@ p{
         display: flex;
         align-items: center;
         justify-content: center;
-       background-color: #282938;
+      
         margin-left: 5px;
         
         
@@ -100,7 +100,7 @@ p{
 @media only screen and (max-width: 350px){
     .hero_container{
     margin-left: 22px;
-    background-color: #282938;
+   
     width:100%;
     }
     .intouch_button{
