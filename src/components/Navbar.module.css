@@ -34,6 +34,7 @@
 
 a{
     text-decoration:none ;
+    color:black;
     
 }
 nav ul li:first-child a {
@@ -42,7 +43,7 @@ nav ul li:first-child a {
 
   @media screen  and (max-width:450px){
     .section{
-        gap:20px;
+        gap:17px;
         margin-left: -10px;
     }
 
@@ -54,5 +55,8 @@ nav ul li:first-child a {
         margin-left:18px;
         padding:5px;
         border : 1px solid transparent;
+    }
+      a:hover{
+        background-color: white;
     }
   }
