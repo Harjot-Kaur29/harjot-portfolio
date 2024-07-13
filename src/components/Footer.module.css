@@ -1,0 +1,26 @@
+.footer_container{
+    height:50px;
+    width:100%;
+    background-color:rgba(245,252,255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:30px;
+}
+p{
+    margin-top:20px;
+}
+
+@media screen  and (max-width:450px){
+    p{
+        margin-left: 55px;
+        
+        
+    }
+    .footer_container{
+        background-color: white;
+        
+    }
+  }
+
+
